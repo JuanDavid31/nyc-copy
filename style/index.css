@@ -27,36 +27,38 @@
   font-family: nyt-imperial;
   src: url(../fonts/imperial-normal-500.ttf);
 }
+
 @font-face {
   font-family: nyt-imperial-bold;
   src: url(../fonts/imperial-normal-700.ttf);
 }
 
 .nyt-franklin-italic {
-  font-family: nyt-franklin-italic;
+  font-family: nyt-franklin-italic, sans-serif;
 }
 
 .nyt-franklin {
-  font-family: nyt-franklin;
+  font-family: nyt-franklin, sans-serif;
 }
 
 .nyt-franklin-bold {
-  font-family: nyt-franklin-bold;
+  font-family: nyt-franklin-bold, sans-serif;
 }
 
 .old-english {
-  font-family: old-english;
+  font-family: old-english, sans-serif;
 }
 
 .nyt-cheltenham {
-  font-family: nyt-cheltenham;
+  font-family: nyt-cheltenham, sans-serif;
 }
 
 .nyt-imperial {
-  font-family: nyt-imperial;
+  font-family: nyt-imperial, sans-serif;
 }
+
 .nyt-imperial-bold {
-  font-family: nyt-imperial-bold;
+  font-family: nyt-imperial-bold, sans-serif;
 }
 
 .nav {
@@ -108,21 +110,21 @@
   border-top-width: 1px;
   border-top-style: solid;
   border-top-color: rgb(235, 235, 235);
-
   padding-top: 15px;
   margin: 15px auto 25px auto;
 }
 
 .antenna-figure {
-  margin: 0px auto 43px auto;
+  margin: 0 auto 43px auto;
   display: flex;
   justify-content: center;
   flex-direction: column;
   align-items: center;
   width: 1200px;
 }
+
 .fig-inflation {
-  margin: 0px auto 43px auto;
+  margin: 0 auto 43px auto;
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -139,6 +141,7 @@
   max-width: 300px;
   font-size: 11px;
 }
+
 .fig-video-caption span {
   font-size: 10px;
   color: #888;
@@ -155,7 +158,7 @@
 
 .figcaption {
   color: #666;
-  font-family: nyt-imperial;
+  font-family: nyt-imperial, sans-serif;
   font-size: 15px;
   margin-top: 10px;
 }
@@ -209,14 +212,11 @@
 }
 
 .editors-pick-article article {
-  margin: 0px;
+  margin: 0;
 }
 
 .editors-pick-article aside {
   max-width: 210px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -244,9 +244,9 @@
 
 .editor-pick h3 {
   font-size: 14px;
-  margin: auto 0px auto 10px;
+  margin: auto 0 auto 10px;
   margin-top: auto;
-  margin-right: 0px;
+  margin-right: 0;
   margin-bottom: auto;
   margin-left: 10px;
 }
@@ -254,6 +254,7 @@
 .column-image-container {
   position: relative;
 }
+
 .image-column {
   width: 25%;
   padding: 10px;
@@ -273,9 +274,11 @@
   right: 0;
   display: flex;
 }
+
 .story-author {
   margin-top: 80px;
 }
+
 .story-author::before {
   width: 60px;
   content: "";
@@ -286,7 +289,7 @@
 }
 
 .telescope-figure {
-  margin: 0px auto 43px auto;
+  margin: 0 auto 43px auto;
   display: flex;
   justify-content: center;
   flex-direction: column;
