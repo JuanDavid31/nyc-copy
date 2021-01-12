@@ -1,0 +1,26 @@
+@font-face{
+    font-family: nyt-franklin;
+    src: url(../fonts/franklin-italic-700.ttf);
+}
+
+@font-face {
+    font-family: old-english;
+    src: url(../fonts/old-english.ttf);
+}
+
+@font-face {
+    font-family: nyt-cheltenham;
+    src: url(../fonts/cheltenham-italic-700.ttf);
+}
+
+.nav-section-title{
+    font-family: nyt-franklin;
+}
+
+.nav-header{
+    font-family: old-english;
+}
+
+h1 {
+    font-family: nyt-cheltenham;;
+}
