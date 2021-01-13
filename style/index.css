@@ -297,8 +297,48 @@
   width: 720px;
 }
 
-.new-york-times-columns{
+.new-york-times-columns {
+  margin: 0 auto 43px auto;
+  width: 1200px;
+  border-top: 1px solid #ebebeb;
+  border-top-width: 1px;
+  border-top-style: solid;
+  padding-top: 15px;
+  border-bottom: 1px solid #ebebeb;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  padding-bottom: 15px;
+}
+.section-grid {
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20% 20%;
+  grid-template-rows: 20% 20% 20% 20% 20%;
+  width: 100%;
+}
 
+.section-item {
+  display: flex;
+  flex-direction: column;
+  font-size: 12px;
+}
+
+.section-item ul {
+  text-decoration: none;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.section-item a {
+  color: #333;
+  text-decoration: none;
+}
+.section-item a:hover {
+  color: #333;
+  text-decoration: underline;
+}
+.subscribe-col {
+  display: flex;
+  float: left;
 }
 
 footer {
