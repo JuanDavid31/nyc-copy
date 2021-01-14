@@ -444,12 +444,40 @@ footer a:hover {
   padding-right: 10px;
 }
 
+.bottom-section {
+  margin-bottom: 30px;
+}
+
 .bottom-section-left-column {
   width: 852px;
 }
 
 .top-border-divider {
   border-top: 1px solid rgb(0, 0, 0);
+}
+
+.top-border-divider h2 {
+  font-size: 16px;
+}
+
+.suggested-newsletters {
+  margin-bottom: 32px;
+}
+
+.newsletter-container {
+  justify-content: space-between;
+}
+
+.newsletter {
+  height: 262px;
+  width: 241px;
+  padding: 15px;
+  border: 1px solid rgb(226, 226, 226);
+}
+
+.newsletter img {
+  height: 82px;
+  width: 82px;
 }
 
 .bottom-section-editors-pick {
@@ -461,6 +489,12 @@ footer a:hover {
 .bottom-section-editors-pick-1-row a {
   margin-right: 20px;
 }
+
+.bottom-section-title:hover {
+  text-decoration: underline;
+  cursor: text;
+}
+
 .bottom-section-article {
   width: 273px;
 }
@@ -499,4 +533,28 @@ footer a:hover {
 
 .more-in-space-and-astronomy {
   margin-bottom: 25px;
+}
+
+.bottom-section-right-column {
+  width: 318px;
+  margin-left: 30px;
+}
+
+.bottom-section-right-column h2 {
+  margin-top: 17px;
+}
+
+.bottom-section-right-column h3 {
+  padding: 15px 0 15px 0;
+  margin: 0;
+  border-top: 1px solid rgb(226, 226, 226);
+}
+
+.bottom-section-right-column a {
+  font-size: 19px;
+  font-weight: 500;
+}
+
+.bottom-section-right-column a:hover {
+  color: rgb(102, 102, 102);
 }
