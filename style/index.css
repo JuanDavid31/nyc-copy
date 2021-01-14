@@ -455,12 +455,17 @@ footer a:hover {
 .bottom-section-editors-pick {
   justify-content: space-between;
 }
-
+.bottom-section-editors-pick-1-row {
+  justify-content: flex-start;
+}
+.bottom-section-editors-pick-1-row a {
+  margin-right: 20px;
+}
 .bottom-section-article {
   width: 273px;
 }
 
-.bottom-section-article figure{
+.bottom-section-article figure {
   margin: 0px;
 }
 
@@ -469,13 +474,13 @@ footer a:hover {
   height: 172px;
 }
 
-.bottom-section-article p{
+.bottom-section-article p {
   font-size: 18px;
   margin-bottom: 0px;
   color: black;
 }
 
-.bottom-section-article span{
+.bottom-section-article span {
   font-size: 12px;
   margin-bottom: 0px;
   color: rgb(153, 153, 153);
@@ -488,7 +493,10 @@ footer a:hover {
   color: rgb(153, 153, 153);
 }
 
-
 .color-black {
-  color: black; 
+  color: black;
+}
+
+.more-in-space-and-astronomy {
+  margin-bottom: 25px;
 }
