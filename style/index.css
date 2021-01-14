@@ -19,8 +19,13 @@
 }
 
 @font-face {
-  font-family: nyt-cheltenham;
+  font-family: nyt-cheltenham-italic;
   src: url(../fonts/cheltenham-italic-700.ttf);
+}
+
+@font-face {
+  font-family: nyt-cheltenham;
+  src: url(../fonts/cheltenham-normal-500.ttf);
 }
 
 @font-face {
@@ -47,6 +52,10 @@
 
 .old-english {
   font-family: old-english, sans-serif;
+}
+
+.nyt-cheltenham-italic {
+  font-family: nyt-cheltenham-italic, sans-serif;
 }
 
 .nyt-cheltenham {
@@ -433,4 +442,53 @@ footer a:hover {
   grid-column: 4/4;
   grid-row: 4/4;
   padding-right: 10px;
+}
+
+.bottom-section-left-column {
+  width: 852px;
+}
+
+.top-border-divider {
+  border-top: 1px solid rgb(0, 0, 0);
+}
+
+.bottom-section-editors-pick {
+  justify-content: space-between;
+}
+
+.bottom-section-article {
+  width: 273px;
+}
+
+.bottom-section-article figure{
+  margin: 0px;
+}
+
+.bottom-section-img {
+  width: 273px;
+  height: 172px;
+}
+
+.bottom-section-article p{
+  font-size: 18px;
+  margin-bottom: 0px;
+  color: black;
+}
+
+.bottom-section-article span{
+  font-size: 12px;
+  margin-bottom: 0px;
+  color: rgb(153, 153, 153);
+}
+
+.bottom-section-figcaption {
+  margin-top: 0px;
+  text-align: right;
+  font-size: 10px;
+  color: rgb(153, 153, 153);
+}
+
+
+.color-black {
+  color: black; 
 }
