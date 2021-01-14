@@ -6,7 +6,7 @@
 
 ![screenshot](img/readme.png)
 
-Additional description about the project and its features.
+This is a clone from Space ripples Reveal Big Bang's Smoking gun article from the new york times
 
 ## Built With
 
@@ -20,7 +20,9 @@ Additional description about the project and its features.
 
 ## Getting Started
 
-To get a local copy up and running follow these simple example steps.
+- Run this command in your OS terminal: `git clone https://github.com/JuanDavid31/nyc-copy.git` to get a copy of the project.
+- To run the project open the `index.html` file in a web browser.
+
 
 ### Prerequisites
 
