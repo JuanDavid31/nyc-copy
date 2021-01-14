@@ -65,16 +65,35 @@ body {
   margin: 0;
 }
 
-.nav {
+.flex {
   display: flex;
+}
+
+.justify-content-center {
+  justify-content: center;
+}
+
+.align-items-center {
+  align-items: center;
+}
+
+.flex-direction-column {
+  flex-direction: column;
+}
+
+.max-width-600 {
+  max-width: 600px;
+}
+
+.text-decoration-none {
+  text-decoration: none;
+}
+
+.nav {
   justify-content: space-between;
   padding-left: 15px;
   padding-right: 15px;
   border-bottom: 1px solid #e2e2e2;
-  border-bottom-width: 1px;
-  border-bottom-style: solid;
-  border-bottom-color: rgb(226, 226, 226);
-  align-items: center;
   height: 43px;
   position: fixed;
   width: 100%;
@@ -89,10 +108,15 @@ body {
 
 .nav-section-title {
   font-size: 14.25px;
+  color: black;
 }
 
-.nav-title {
-  font-size: 24px;
+.nav-section-title:hover {
+  text-decoration: underline;
+}
+
+.logo-img {
+  height: 26px;
 }
 
 .nav-button {
@@ -107,7 +131,6 @@ body {
   display: inline-block;
   cursor: pointer;
   padding: 5px 11px;
-  text-decoration: none;
   text-shadow: 0 -1px 0 #032789;
 }
 
@@ -119,12 +142,10 @@ main {
 .main-header {
   font-size: 40px;
   text-align: left;
-  max-width: 600px;
   margin: 0 auto;
 }
 
 footer a {
-  text-decoration: none;
   color: #666;
   font-size: 11px;
   float: left;
@@ -132,38 +153,28 @@ footer a {
 }
 
 .social-network-buttons {
-  max-width: 600px;
   border-top: 1px solid #ebebeb;
-  border-top-width: 1px;
-  border-top-style: solid;
-  border-top-color: rgb(235, 235, 235);
   padding-top: 15px;
   margin: 15px auto 25px auto;
 }
 
 .social-network-buttons a {
   margin-right: 10px;
-  text-decoration: none;
   color: #000;
   left: 4px;
   position: relative;
 }
 
-.social-network-buttons ul {
+.social-network-buttons-list {
   list-style-type: none;
-  display: flex;
   padding: 0;
 }
 
-.social-network-buttons li {
+.social-network-buttons-list-item {
   height: 25px;
   width: 25px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   border-radius: 50%;
-  border: 1px solid;
-  border-color: #eee;
+  border: 1px solid #eee;
   background: #eee;
   margin-right: 10px;
 }
@@ -174,23 +185,14 @@ footer a {
 
 .antenna-figure {
   margin: 0 auto 43px auto;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
   width: 1200px;
 }
 
 .fig-inflation {
   margin: 0 auto 43px auto;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
 }
 
 .fig-video {
-  max-width: 600px;
   margin: 0 auto;
 }
 
@@ -227,7 +229,6 @@ footer a {
 }
 
 .article {
-  max-width: 600px;
   margin: 0 auto;
 }
 
@@ -245,18 +246,11 @@ footer a {
 
 .login-link a {
   color: rgb(50, 104, 145);
-  text-decoration: none;
 }
 
 .login-section {
   border-top: 1px solid #ebebeb;
-  border-top-width: 1px;
-  border-top-style: solid;
-  border-top-color: rgb(235, 235, 235);
   border-bottom: 1px solid #ebebeb;
-  border-bottom-width: 1px;
-  border-bottom-style: solid;
-  border-bottom-color: rgb(235, 235, 235);
 }
 
 .link-section {
@@ -265,7 +259,6 @@ footer a {
 }
 
 .editors-pick-article {
-  display: flex;
   justify-content: flex-end;
 }
 
@@ -275,9 +268,6 @@ footer a {
 
 .editors-pick-article aside {
   max-width: 210px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
   margin-right: 160px;
   margin-left: 90px;
 }
@@ -285,19 +275,12 @@ footer a {
 .editors-pick-article aside h2 {
   font-size: 14px;
   border-bottom: 1px solid rgb(226, 226, 226);
-  border-bottom-width: 1px;
-  border-bottom-style: solid;
-  border-bottom-color: rgb(226, 226, 226);
   padding-bottom: 12px;
 }
 
 .editor-pick {
-  display: flex;
   flex-direction: row;
-  justify-content: center;
-  align-items: center;
   margin-bottom: 15px;
-  text-decoration: none;
 }
 
 .editor-pick h3 {
@@ -323,14 +306,12 @@ footer a {
   position: absolute;
   top: 25%;
   right: 0;
-  display: flex;
 }
 
 .second-row {
   position: absolute;
   top: 75%;
   right: 0;
-  display: flex;
 }
 
 .story-author {
@@ -348,10 +329,6 @@ footer a {
 
 .telescope-figure {
   margin: 0 auto 43px auto;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
   width: 720px;
 }
 
@@ -359,12 +336,8 @@ footer a {
   margin: 0 auto 43px auto;
   width: 1200px;
   border-top: 1px solid #ebebeb;
-  border-top-width: 1px;
-  border-top-style: solid;
   padding-top: 15px;
   border-bottom: 1px solid #ebebeb;
-  border-bottom-width: 1px;
-  border-bottom-style: solid;
   padding-bottom: 15px;
 }
 
@@ -380,7 +353,6 @@ footer a {
 }
 
 .section-item ul {
-  text-decoration: none;
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -388,7 +360,6 @@ footer a {
 
 .section-item a {
   color: #333;
-  text-decoration: none;
 }
 
 .section-item li:hover {
@@ -396,16 +367,8 @@ footer a {
   text-decoration: underline;
 }
 
-.subscribe-col {
-  display: flex;
-  float: left;
-}
-
 footer {
   border-top: 1px solid #ebebeb;
-  border-top-width: 1px;
-  border-top-style: solid;
-  border-top-color: rgb(235, 235, 235);
   margin-top: 30px;
   margin-bottom: 25px;
   padding-left: 250px;
