@@ -587,3 +587,40 @@ footer a:hover {
 .newsletter-img-section {
   margin-bottom: 10px;
 }
+
+.form-post {
+  width: 500px;
+}
+
+.form-comment {
+  display: flex;
+  justify-content: center;
+  margin: 40px;
+}
+
+.form-container {
+  display: grid;
+  grid-template-columns: 25% 75%;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  font-size: 15px;
+  background-color: aliceblue;
+  border: 2px solid #ccc;
+  border-radius: 15px;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.form-col {
+  padding: 5px;
+}
+
+.form-col input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
