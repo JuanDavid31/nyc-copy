@@ -502,18 +502,18 @@
 		<div class="comments-section flex justify-content-center">
 			<form action="/my-web-server" method="post">
 				<ul>
-					<li>
+					<li class="form-element">
 						<label for="name">Name:</label>
 						<input maxlength="20" type="text" id="name" name="user_name" required/>
 					</li>
-					<li>
+					<li class="form-element">
 						<label for="mail">E-mail:</label>
 						<input maxlength="20" type="email" id="mail" name="user_mail" required/>
 					</li>
-					<li>
+					<li class="form-element">
 						<label class="opinion-label">What is your overall opinion about this article?</label>
 					</li>
-					<li class="flex justify-content-space-between opinion-group">
+					<li class="form-element flex justify-content-space-between opinion-group">
 						<input maxlength="20" id="positive" type="radio" name="opinion">
 						<label for="positive">Positive</label>
 						<input maxlength="20" id="negative" type="radio" name="opinion">
@@ -521,15 +521,15 @@
 						<input maxlength="20" id="neutral" type="radio" name="opinion">
 						<label for="neutral">Neutral</label>
 					</li>
-					<li>
+					<li class="form-element">
 						<label for="msg">Comment:</label>
-						<textarea id="msg" name="user_comment" placeholder="Type your comment here..." maxlength="250" required></textarea>
+						<textarea id="msg" class="comment-box" name="user_comment" placeholder="Type your comment here..." maxlength="250" required></textarea>
 					</li>
-					<li class="subscribe-to-newsletter">
+					<li class="form-element subscribe-to-newsletter">
 						<input type="checkbox" name="subscribe" id="subscribe">
 						<label for="subscribe">I want to subscribe to the newsletter</label>
 					</li>
-					<li class="button">
+					<li class="form-element button">
 						<button type="submit">Send</button>
 					</li>
 				</ul>
