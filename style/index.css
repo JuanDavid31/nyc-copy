@@ -558,3 +558,24 @@ footer a:hover {
 .bottom-section-right-column a:hover {
   color: rgb(102, 102, 102);
 }
+.newsletter-section h3 {
+  margin: 0;
+}
+
+.newsletter-section p {
+  margin: 0;
+}
+
+.newsletter-link-section {
+  margin-top: 50px;
+}
+
+.newsletter-link-section a {
+  color: rgb(50, 104, 145);
+  font-size: 14px;
+}
+
+.newsletter-img-section {
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
